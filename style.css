@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../pic/pexels-umkreisel-app-956981.jpg)center/cover no-repeat;
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.massage{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(120, 120, 120, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    margin-top:2rem ;
+    background-color: black;
+    border-radius: 5px;
+    height: 2rem;
+    width: 100%;
+}
+.child{
+    height: 100%;
+    border-radius: 5px;
+    animation: colo 60s forwards; 
+}
+
+@keyframes noel {
+    0%{
+        content: "Lo";
+    }
+    20%{
+        content:"Loa" ;
+    }
+    40%{
+        content: "Load";
+    }
+    60%{
+        content: "Loadi";
+    }
+    80%{
+        content: "Loadin";
+    }
+    100%{
+        content: "Loading...";
+    }
+}
+span::before {
+    content: "L";
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-size: 30px;
+    color: white;
+    animation: noel 4s linear infinite;
+  }
+
+  
+@keyframes colo {
+    0%{
+        background-color: black;
+        width: 10%;
+    }
+    20%{
+        background-color: red;
+        width: 20%;
+    }
+    40%{
+        background-color: red;
+        width: 40%;
+    }
+    60%{
+        background-color: green;
+        width: 60%;
+    }
+    80%{
+        background-color: green;
+        width: 80%;
+    }
+    100%{
+        background-color: green;
+        width: 100%;
+    }
+}
