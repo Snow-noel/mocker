@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(../pic/pexels-umkreisel-app-956981.jpg)center/cover no-repeat;
+    background: url(./pic/pexels-umkreisel-app-956981.jpg)center/cover no-repeat;
     height: 100vh;
 }
 h1{
