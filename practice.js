@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         main.style.backgroundSize = "cover";
         main.style.borderRadius="10px"
         
-    }, 60000);
+    }, 20000);
 })
 
