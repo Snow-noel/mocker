@@ -34,7 +34,7 @@ h1{
 .child{
     height: 100%;
     border-radius: 5px;
-    animation: colo 60s forwards; 
+    animation: colo 20s forwards; 
 }
 
 @keyframes noel {
